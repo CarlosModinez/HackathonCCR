@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "caminholivreccr-fbrjki",
+  "private_key_id": "3b9877d0a1b2a9206a92fa6cbbd3d4c138179ddd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC27UBH6QE8/oVF\nsYxfbsg0+Pn5eGp2GXrhrfR8vhHIAx8r/qe53/Swb47pJnJD3zv0pPYJiJbmCfAx\n71QPfeQQfWawySIYoQHrOk8wCwJLwwl9BB+Wn166v3a2kv6pMFVSVLjiDbJLWEQO\nxZIkGN2qyJJYF/7IUogANeG0z+6wUKLfQM9CloqJtfHwSPtg+U5PonVQ5EVJg5YV\nYoETAAIDD57707fYYxJNd6RwDIRdt4qaLvkjnpu5KGhqWQvsIy2MPN7R+lSghMUN\nK6O0jk1VUsaNjHnMJEMcW8th+YsJTdzBHbThR890rw/K7yFJ9UrHLVCbvu10ucxS\na+srk+/NAgMBAAECggEAHKak1I6Had8Aj0Wrk4/1rixX9M26OQStJTdajYY0oUPx\n6DFi4l9UQyU5+EUUDRLkIGGNArnAzsd8NkoCu8lvRPDrOmHKZBqlwwrXN9Jlmemy\nrQDOFMih7PSLmrWDywqdtn88FPXpuNjakgi6Zsp5P6RaHY+mkYgxsny9/RS7USSQ\nRpp52N29uoj2Ph3IqWP2prkJAbuRLIaTlNSOhnDgm9kGimytD4RvtOxlYKNK1Lzu\nOSud6/TNiBpN3Gl/a8Re49RHuXLDgwf3hW2oe290sI3WflC/4ZYQ2WNbPHDqufLa\nNM3rSTNcB2gNc8tFTA8ckPvZ/oS7mzD/Z/q3xaNjgQKBgQDftMNDwuTC/xMKQLzP\no46bv0ppc/35kQHote8MDT8qt3k0I3RNA3PSbQqe61+MVEDknj5WeUyIx49So0SK\nYG3O2m0fCyFkgXk0GQf18a41lELxVglKGFWFi7x4uj0+KHRkae9CJrxndgNmQ7u3\nyuRNypnw6hKTv2VbdYjYgoLPgQKBgQDRVXSMlNW740ejLjwDjsOQHHgmh3xF64CF\nZy3Kpy8t58G6XErOFK/SfQHhFjNwO7KxFG20sEzvzL9WV1jx3h1Qkt6bCoPxxCPz\nIamQSukeK23Xi32rdRXjjjXmSntr80jCfRliYkqukuXTPl8MUDaQIoRsSR0xfRnE\nittvYJ6GTQKBgG5qDvK0ECs6sNAfsdGefbXbzcOMz69NZi7RFYLSSvovgrA8S5vz\nd0hGL7bOn+Nodnsgq84MorzkGpaEJUFTZP9zCecHnFy6FvOi4y3+MqkZW404lO8w\nYY2/sa+45J94YjJpowD4k4dRVU41YkLN7q+Cr0ackbzA/CsPMRMEH8KBAoGASrKt\nxkSOCF/P/mDPNY3KJzChh04tgF3LHM92vavu3/ilXrT0VJl5LClDdGiRrmj/GMVr\naGDI84EifdLpgFV8LHZcTQLxlmIhWe8XLNAuY3+n0JSMIZTEXNEwVp8Zb6n+urgd\nSMg+UhFFRZ4qGKC+96v5iRKGAlTbzxClwRa/OrkCgYBIy5yObcYb8x9MMqBtE3L/\niXHGaJQZAZFlixF+dG2f75Sg6NKyNSQDPeFGS40ivLpxNGDamzh3SKnrCx5PeOCI\nruRBeLR+ajHhkTIyhbRflMvb3DZRreu6HKoA1/CgfGT4jqRrE+mQYQr+pGzIjQLR\ncB/n2N6oh94fMctr0K+93A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "chatbot@caminholivreccr-fbrjki.iam.gserviceaccount.com",
+  "client_id": "100121650551457047089",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chatbot%40caminholivreccr-fbrjki.iam.gserviceaccount.com"
+}
