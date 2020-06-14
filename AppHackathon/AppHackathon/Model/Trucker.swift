@@ -11,20 +11,19 @@ import Foundation
 class Trucker{
     let id :String
     let name :String
+    let avatarImg :String
     let wallet :Wallet
-    let researches :[Search?]
     
-    init(id :String, name:String, wallet :Wallet){
+    init(id :String, name:String, avatarImg :String, wallet :Wallet){
         self.id = id
         self.name = name
         self.wallet = wallet
-        self.researches = []
+        self.avatarImg = avatarImg
     }
     
-    /*
-     add search
-     get search
-     
-     
-     */
+    func getPoints() -> Int{
+        self.wallet.points
+    }
+    
+    
 }

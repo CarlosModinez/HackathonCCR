@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		313CCACD1B2C55B4E3A18FE3 /* Pods_AppHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1D58C31F6D9026A8521D1D /* Pods_AppHackathon.framework */; };
+		391474382496A95000164900 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391474372496A95000164900 /* Comment.swift */; };
+		3939D6ED2496899400652B0D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6EC2496899400652B0D /* Address.swift */; };
+		3939D6F324969B8200652B0D /* HighwaySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F224969B8200652B0D /* HighwaySearch.swift */; };
+		3939D6F524969C1900652B0D /* SearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F424969C1900652B0D /* SearchItem.swift */; };
+		3939D6F924969F2A00652B0D /* SearchForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F824969F2A00652B0D /* SearchForm.swift */; };
 		394920DB2495B85E008D6DAD /* Locais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920D92495B85E008D6DAD /* Locais.storyboard */; };
 		394920DF2495BD3C008D6DAD /* Cupons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920DD2495BD3C008D6DAD /* Cupons.storyboard */; };
 		394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E02495C662008D6DAD /* LocaisViewController.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391474372496A95000164900 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3939D6EC2496899400652B0D /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		3939D6F224969B8200652B0D /* HighwaySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighwaySearch.swift; sourceTree = "<group>"; };
+		3939D6F424969C1900652B0D /* SearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItem.swift; sourceTree = "<group>"; };
+		3939D6F824969F2A00652B0D /* SearchForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForm.swift; sourceTree = "<group>"; };
 		394920DA2495B85E008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Locais.storyboard; sourceTree = "<group>"; };
 		394920DE2495BD3C008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cupons.storyboard; sourceTree = "<group>"; };
 		394920E02495C662008D6DAD /* LocaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaisViewController.swift; sourceTree = "<group>"; };
@@ -132,7 +142,12 @@
 				394920EA24967311008D6DAD /* Place.swift */,
 				394920EC24967322008D6DAD /* Coupon.swift */,
 				394920EE2496744F008D6DAD /* Wallet.swift */,
+				3939D6F224969B8200652B0D /* HighwaySearch.swift */,
+				3939D6EC2496899400652B0D /* Address.swift */,
 				394920F024967555008D6DAD /* Search.swift */,
+				3939D6F424969C1900652B0D /* SearchItem.swift */,
+				3939D6F824969F2A00652B0D /* SearchForm.swift */,
+				391474372496A95000164900 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,12 +280,17 @@
 			files = (
 				394920E9249672D8008D6DAD /* Trucker.swift in Sources */,
 				394920E32496728A008D6DAD /* Model.swift in Sources */,
+				3939D6F524969C1900652B0D /* SearchItem.swift in Sources */,
 				399144D92495A6FC006AB959 /* ViewController.swift in Sources */,
 				394920ED24967322008D6DAD /* Coupon.swift in Sources */,
 				399144D52495A6FC006AB959 /* AppDelegate.swift in Sources */,
+				3939D6F324969B8200652B0D /* HighwaySearch.swift in Sources */,
 				399144D72495A6FC006AB959 /* SceneDelegate.swift in Sources */,
 				394920EF2496744F008D6DAD /* Wallet.swift in Sources */,
 				394920F124967555008D6DAD /* Search.swift in Sources */,
+				391474382496A95000164900 /* Comment.swift in Sources */,
+				3939D6ED2496899400652B0D /* Address.swift in Sources */,
+				3939D6F924969F2A00652B0D /* SearchForm.swift in Sources */,
 				394920EB24967311008D6DAD /* Place.swift in Sources */,
 				394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */,
 			);
