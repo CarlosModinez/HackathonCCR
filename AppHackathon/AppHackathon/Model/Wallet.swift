@@ -12,9 +12,9 @@ class Wallet{
     var points :Int
     var coupons :[Coupon?]
     
-    init(){
-        self.points = 0
-        self.coupons = []
+    init(points :Int, coupons :[Coupon?]){
+        self.points = points
+        self.coupons = coupons
     }
     
     func addPoints(points :Int){
@@ -30,17 +30,19 @@ class Wallet{
         return true;
     }
     
+    //Func para obter um cupom (subtrair pontos e adc cupom na carteira)
     func addCoupon(coupon :Coupon){
-        if(subPoints(points: coupon.points)){
+        if(subPoints(points: coupon.getPoints())){
             self.coupons.append(coupon)
         }
     }
     
+    //Func utilizada ao momento que o usuário utiliza o cupom
     func subCoupon(trackingCode :String) -> Bool{
         if coupons.count != 0{
             for i in 0..<self.coupons.count{
                 let c = self.coupons[i]
-                if c?.trackingCode == trackingCode{
+                if c?.getTrackingCode() == trackingCode{
                     self.coupons.remove(at: i)
                     return true
                 }
