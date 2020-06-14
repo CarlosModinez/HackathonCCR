@@ -18,13 +18,37 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nlx-Jk-Vrw">
                                 <rect key="frame" x="0.0" y="2.5" width="414" height="896"/>
                             </mapView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currentPoints" translatesAutoresizingMaskIntoConstraints="NO" id="HqQ-C9-Ab4">
+                                <rect key="frame" x="0.0" y="145" width="343" height="100"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rateNow" translatesAutoresizingMaskIntoConstraints="NO" id="bts-u9-WGI">
+                                <rect key="frame" x="153" y="275" width="261" height="76"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKK-8W-p3L">
+                                <rect key="frame" x="220" y="697" width="179" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yKK-8W-p3L" secondAttribute="height" multiplier="179:66" id="a1n-w2-edI"/>
+                                </constraints>
+                                <state key="normal" image="whatsAppBot"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="nlx-Jk-Vrw" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AJh-XT-ntL"/>
                             <constraint firstItem="nlx-Jk-Vrw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="COf-br-FHE"/>
                             <constraint firstItem="nlx-Jk-Vrw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="H20-51-EBt"/>
+                            <constraint firstItem="yKK-8W-p3L" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0736607" id="Psx-un-IEu"/>
+                            <constraint firstItem="HqQ-C9-Ab4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="Tv0-3K-EhC"/>
+                            <constraint firstItem="bts-u9-WGI" firstAttribute="height" secondItem="nlx-Jk-Vrw" secondAttribute="height" multiplier="0.0848214" id="ZAC-uW-Qa8"/>
+                            <constraint firstItem="HqQ-C9-Ab4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.111607" id="bYl-sz-Lrc"/>
+                            <constraint firstItem="bts-u9-WGI" firstAttribute="top" secondItem="HqQ-C9-Ab4" secondAttribute="bottom" constant="30" id="hHn-iM-15t"/>
                             <constraint firstItem="nlx-Jk-Vrw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iFO-Tg-Ohp"/>
+                            <constraint firstItem="bts-u9-WGI" firstAttribute="trailing" secondItem="nlx-Jk-Vrw" secondAttribute="trailing" id="mab-CR-oVb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yKK-8W-p3L" secondAttribute="bottom" constant="50" id="pXl-UQ-gIx"/>
+                            <constraint firstItem="HqQ-C9-Ab4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="49:128" id="rk3-FA-SMZ"/>
+                            <constraint firstItem="HqQ-C9-Ab4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u4F-Xc-G7U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yKK-8W-p3L" secondAttribute="trailing" constant="15" id="usd-L1-x84"/>
+                            <constraint firstItem="bts-u9-WGI" firstAttribute="width" secondItem="nlx-Jk-Vrw" secondAttribute="height" multiplier="261:896" id="xOe-iQ-g1x"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -51,7 +75,7 @@
                     </tabBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
-                            <integer key="value" value="0"/>
+                            <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -105,6 +129,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="currentPoints" width="361" height="118"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="rateNow" width="279" height="94"/>
+        <image name="whatsAppBot" width="179" height="66"/>
     </resources>
 </document>
