@@ -11,6 +11,12 @@
 		394920DB2495B85E008D6DAD /* Locais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920D92495B85E008D6DAD /* Locais.storyboard */; };
 		394920DF2495BD3C008D6DAD /* Cupons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920DD2495BD3C008D6DAD /* Cupons.storyboard */; };
 		394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E02495C662008D6DAD /* LocaisViewController.swift */; };
+		394920E32496728A008D6DAD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E22496728A008D6DAD /* Model.swift */; };
+		394920E9249672D8008D6DAD /* Trucker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E8249672D8008D6DAD /* Trucker.swift */; };
+		394920EB24967311008D6DAD /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920EA24967311008D6DAD /* Place.swift */; };
+		394920ED24967322008D6DAD /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920EC24967322008D6DAD /* Coupon.swift */; };
+		394920EF2496744F008D6DAD /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920EE2496744F008D6DAD /* Wallet.swift */; };
+		394920F124967555008D6DAD /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920F024967555008D6DAD /* Search.swift */; };
 		399144D52495A6FC006AB959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399144D42495A6FC006AB959 /* AppDelegate.swift */; };
 		399144D72495A6FC006AB959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399144D62495A6FC006AB959 /* SceneDelegate.swift */; };
 		399144D92495A6FC006AB959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399144D82495A6FC006AB959 /* ViewController.swift */; };
@@ -24,6 +30,12 @@
 		394920DA2495B85E008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Locais.storyboard; sourceTree = "<group>"; };
 		394920DE2495BD3C008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cupons.storyboard; sourceTree = "<group>"; };
 		394920E02495C662008D6DAD /* LocaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaisViewController.swift; sourceTree = "<group>"; };
+		394920E22496728A008D6DAD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		394920E8249672D8008D6DAD /* Trucker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trucker.swift; sourceTree = "<group>"; };
+		394920EA24967311008D6DAD /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		394920EC24967322008D6DAD /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		394920EE2496744F008D6DAD /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		394920F024967555008D6DAD /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		399144D12495A6FC006AB959 /* AppHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399144D42495A6FC006AB959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		399144D62495A6FC006AB959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +127,12 @@
 		399144EF2495AA9E006AB959 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				394920E22496728A008D6DAD /* Model.swift */,
+				394920E8249672D8008D6DAD /* Trucker.swift */,
+				394920EA24967311008D6DAD /* Place.swift */,
+				394920EC24967322008D6DAD /* Coupon.swift */,
+				394920EE2496744F008D6DAD /* Wallet.swift */,
+				394920F024967555008D6DAD /* Search.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,9 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394920E9249672D8008D6DAD /* Trucker.swift in Sources */,
+				394920E32496728A008D6DAD /* Model.swift in Sources */,
 				399144D92495A6FC006AB959 /* ViewController.swift in Sources */,
+				394920ED24967322008D6DAD /* Coupon.swift in Sources */,
 				399144D52495A6FC006AB959 /* AppDelegate.swift in Sources */,
 				399144D72495A6FC006AB959 /* SceneDelegate.swift in Sources */,
+				394920EF2496744F008D6DAD /* Wallet.swift in Sources */,
+				394920F124967555008D6DAD /* Search.swift in Sources */,
+				394920EB24967311008D6DAD /* Place.swift in Sources */,
 				394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
