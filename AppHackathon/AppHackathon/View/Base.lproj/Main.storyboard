@@ -46,6 +46,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.61960784313725492" green="0.14901960784313725" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.61960784310000006" green="0.14901960780000001" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     </tabBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
@@ -66,7 +68,7 @@
         <scene sceneID="Z9y-pI-Cig">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="d46-MP-cS6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="1" title="Home" image="house" catalog="system" id="yV3-DJ-OKc"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Home" image="house.fill" catalog="system" id="yV3-DJ-OKc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="70U-eH-A8C">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -99,10 +101,10 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AxT-Pu-3Ge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="843.75"/>
+            <point key="canvasLocation" x="803" y="562"/>
         </scene>
     </scenes>
     <resources>
-        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
     </resources>
 </document>

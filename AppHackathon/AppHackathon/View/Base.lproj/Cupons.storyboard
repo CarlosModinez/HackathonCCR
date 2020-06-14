@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8lc-cA-ynh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,11 +22,11 @@
             <objects>
                 <viewController title="Cupons" id="qOQ-wL-9M2" customClass="ViewController" customModule="AppHackathon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Ga-IT-k3d">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-X0-4KS">
-                                <rect key="frame" x="113.5" y="440" width="187" height="21"/>
+                                <rect key="frame" x="113.5" y="464.5" width="187" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,7 +51,7 @@
         <scene sceneID="Hhy-iU-9vh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8lc-cA-ynh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="2" title="Cupons" image="cart" catalog="system" id="48T-Wt-bt3"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Cupons" image="cart.fill" catalog="system" id="48T-Wt-bt3"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Img-RU-cI1">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -67,6 +68,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
     </resources>
 </document>
