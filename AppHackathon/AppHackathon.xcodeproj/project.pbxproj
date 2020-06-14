@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		313CCACD1B2C55B4E3A18FE3 /* Pods_AppHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1D58C31F6D9026A8521D1D /* Pods_AppHackathon.framework */; };
 		391474382496A95000164900 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391474372496A95000164900 /* Comment.swift */; };
+		3914743A2496BCD600164900 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391474392496BCD600164900 /* Model.swift */; };
 		3939D6ED2496899400652B0D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6EC2496899400652B0D /* Address.swift */; };
 		3939D6F324969B8200652B0D /* HighwaySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F224969B8200652B0D /* HighwaySearch.swift */; };
 		3939D6F524969C1900652B0D /* SearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F424969C1900652B0D /* SearchItem.swift */; };
@@ -16,7 +17,6 @@
 		394920DB2495B85E008D6DAD /* Locais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920D92495B85E008D6DAD /* Locais.storyboard */; };
 		394920DF2495BD3C008D6DAD /* Cupons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920DD2495BD3C008D6DAD /* Cupons.storyboard */; };
 		394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E02495C662008D6DAD /* LocaisViewController.swift */; };
-		394920E32496728A008D6DAD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E22496728A008D6DAD /* Model.swift */; };
 		394920E9249672D8008D6DAD /* Trucker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E8249672D8008D6DAD /* Trucker.swift */; };
 		394920EB24967311008D6DAD /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920EA24967311008D6DAD /* Place.swift */; };
 		394920ED24967322008D6DAD /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920EC24967322008D6DAD /* Coupon.swift */; };
@@ -33,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		391474372496A95000164900 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		391474392496BCD600164900 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3939D6EC2496899400652B0D /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		3939D6F224969B8200652B0D /* HighwaySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighwaySearch.swift; sourceTree = "<group>"; };
 		3939D6F424969C1900652B0D /* SearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItem.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		394920DA2495B85E008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Locais.storyboard; sourceTree = "<group>"; };
 		394920DE2495BD3C008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cupons.storyboard; sourceTree = "<group>"; };
 		394920E02495C662008D6DAD /* LocaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaisViewController.swift; sourceTree = "<group>"; };
-		394920E22496728A008D6DAD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		394920E8249672D8008D6DAD /* Trucker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trucker.swift; sourceTree = "<group>"; };
 		394920EA24967311008D6DAD /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		394920EC24967322008D6DAD /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
@@ -137,7 +137,6 @@
 		399144EF2495AA9E006AB959 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				394920E22496728A008D6DAD /* Model.swift */,
 				394920E8249672D8008D6DAD /* Trucker.swift */,
 				394920EA24967311008D6DAD /* Place.swift */,
 				394920EC24967322008D6DAD /* Coupon.swift */,
@@ -148,6 +147,7 @@
 				3939D6F424969C1900652B0D /* SearchItem.swift */,
 				3939D6F824969F2A00652B0D /* SearchForm.swift */,
 				391474372496A95000164900 /* Comment.swift */,
+				391474392496BCD600164900 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3914743A2496BCD600164900 /* Model.swift in Sources */,
 				394920E9249672D8008D6DAD /* Trucker.swift in Sources */,
-				394920E32496728A008D6DAD /* Model.swift in Sources */,
 				3939D6F524969C1900652B0D /* SearchItem.swift in Sources */,
 				399144D92495A6FC006AB959 /* ViewController.swift in Sources */,
 				394920ED24967322008D6DAD /* Coupon.swift in Sources */,

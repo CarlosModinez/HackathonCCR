@@ -11,12 +11,16 @@ import Foundation
 //Singleton
 class Model{
 
-    static let instance = Model()
+    static var instance = Model()
+    var nearbyPlaces :[Place?]
+    var truckerMarcos :Trucker
+    var searchModel :SearchForm
+    var researches :[Search?]
+    var coupons :[Coupon]
     
-    private init(){
-    }
+    init() {
     
-    var nearbyPlaces :[Place?] = [
+    nearbyPlaces = [
         Place(id: "1",
               name: "Rest. Sabor do Interior",
               addres: Address(street: "Rod. Presidente Dutra",
@@ -53,14 +57,14 @@ class Model{
         ])
     ]
     
-    var truckerMarcos = Trucker(id: "0",
+    truckerMarcos = Trucker(id: "0",
                                 name: "Marcos Andrade",
                                 avatarImg : "marcos.png",
                                 wallet: Wallet(points: 2000,
                                                coupons: [
                                                 Coupon(id: "0",
                                                        trackingCode: "SJA837FSG",
-                                                       place: Model.instance.nearbyPlaces[0]!,
+                                                       place: nearbyPlaces[0]!,
                                                        oldPrice: 16.00,
                                                        newPrice: 8.00,
                                                        title: "Arroz com feijão e bife temperado",
@@ -71,7 +75,7 @@ class Model{
                                 ]))
     
     //Form padrão para nova avaliação
-    var searchModel = SearchForm(
+    searchModel = SearchForm(
         itensStarRating: [
          SearchItem(title: "Segurança", subTitle: "Quão seguro(a) você se sentiu nesse local?", rating: 0),
             SearchItem(title: "Higiene dos banheiros", subTitle: "Os banheiros eram limpos?", rating: 0),
@@ -86,9 +90,9 @@ class Model{
             SearchItem(title: "WiFi gratuito?", subTitle: nil, rating: 0)])
     
     //Formulário de pesquisa será um objeto SearchForm já pre-definido
-    var researches : [Search?] = [
-        Search(place: Model.instance.nearbyPlaces[0]!,
-               trucker: Model.instance.truckerMarcos,
+    researches = [
+        Search(place: nearbyPlaces[0]!,
+               trucker: truckerMarcos,
                customersTroubled: false,
                searchForm: SearchForm(
                    itensStarRating: [
@@ -104,8 +108,8 @@ class Model{
                        SearchItem(title: "Lugar para estacionar?", subTitle: nil, rating: 1),
                        SearchItem(title: "WiFi gratuito?", subTitle: nil, rating: 1)
        ])),
-       Search(place: Model.instance.nearbyPlaces[0]!,
-              trucker: Model.instance.truckerMarcos,
+       Search(place: nearbyPlaces[0]!,
+              trucker: truckerMarcos,
               customersTroubled: false,
               searchForm: SearchForm(
                   itensStarRating: [
@@ -123,10 +127,10 @@ class Model{
       ]))
     ]
     
-    var coupons :[Coupon] = [
+    coupons = [
         Coupon(id: "0",
                trackingCode: "SJA837FSG",
-               place: Model.instance.nearbyPlaces[0]!,
+               place: nearbyPlaces[0]!,
                oldPrice: 16.00,
                newPrice: 8.00,
                title: "Arroz com feijão e bife temperado",
@@ -136,7 +140,7 @@ class Model{
                highlight: true),
         Coupon(id: "0",
                trackingCode: "GTI669QQE",
-               place: Model.instance.nearbyPlaces[0]!,
+               place: nearbyPlaces[0]!,
                oldPrice: 10.00,
                newPrice: 6.00,
                title: "Salada de fruta na cumbuca de melancia",
@@ -145,4 +149,6 @@ class Model{
                nameImg: "coupon2.png",
                highlight: false)
             ]
+
+        }
 }

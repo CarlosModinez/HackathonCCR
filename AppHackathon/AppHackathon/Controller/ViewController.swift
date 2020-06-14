@@ -14,13 +14,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     @IBOutlet weak var map: MKMapView!
     let locationManager = CLLocationManager()
-    var userLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: -25.542322, longitude: -51.246440)
+    var userLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: -22.961341, longitude: -45.422813) 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         checkLocationServices()
-        fetchPartnerOnMap(Model.shared.partners)
-        showRouteOnMap(pickupCoordinate: userLocation, destinationCoordinate: CLLocationCoordinate2D(latitude: Model.shared.partners[3].latitude, longitude: Model.shared.partners[3].longitude))
+//        print(Model.instance.nearbyPlaces[0]?.getName())
+        fetchPartnerOnMap(Model.instance.nearbyPlaces)
+        showRouteOnMap(pickupCoordinate: userLocation, destinationCoordinate: CLLocationCoordinate2D(latitude: (Model.instance.nearbyPlaces[0]?.getAddress().latitude)!, longitude: (Model.instance.nearbyPlaces[0]?.getAddress().longitude)!))
     }
     func checkLocationServices() {
         if CLLocationManager.locationServicesEnabled() {
@@ -55,12 +56,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
 
     
-    func fetchPartnerOnMap(_ partners: [Partner]) {
-        for partner in partners {
+    func fetchPartnerOnMap(_ places: [Place?]) {
+        for place in places {
             let annotations = MKPointAnnotation()
-            annotations.title = partner.name
+            annotations.title = place!.getName()
             annotations.coordinate = CLLocationCoordinate2D(latitude:
-                partner.latitude, longitude: partner.longitude)
+                place!.getAddress().latitude, longitude: place!.getAddress().longitude)
             map.addAnnotation(annotations)
         }
     }
@@ -129,11 +130,5 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     
     
-    
-}
-struct Partner {
-    var name: String
-    var latitude: CLLocationDegrees
-    var longitude: CLLocationDegrees
     
 }
