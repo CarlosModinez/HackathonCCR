@@ -15,23 +15,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWm-nI-aT0">
-                                <rect key="frame" x="184" y="440" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nlx-Jk-Vrw">
+                                <rect key="frame" x="0.0" y="2.5" width="414" height="896"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="bWm-nI-aT0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="UN8-gD-oZD"/>
-                            <constraint firstItem="bWm-nI-aT0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0234375" id="cKD-SG-Jqf"/>
-                            <constraint firstItem="bWm-nI-aT0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.111111" id="eH6-PX-kVQ"/>
-                            <constraint firstItem="bWm-nI-aT0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="o2H-zx-iuD"/>
+                            <constraint firstItem="nlx-Jk-Vrw" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AJh-XT-ntL"/>
+                            <constraint firstItem="nlx-Jk-Vrw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="COf-br-FHE"/>
+                            <constraint firstItem="nlx-Jk-Vrw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="H20-51-EBt"/>
+                            <constraint firstItem="nlx-Jk-Vrw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iFO-Tg-Ohp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Mkh-yi-Wc1"/>
+                    <connections>
+                        <outlet property="map" destination="nlx-Jk-Vrw" id="hj8-nW-HEj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
