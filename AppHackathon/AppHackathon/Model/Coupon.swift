@@ -60,4 +60,27 @@ class Coupon{
     func getPhoto() -> String{
         return self.nameImg
     }
+    
+    func isHighlight() -> Bool{
+        return self.highlight
+    }
+    
+    static func getCouponHighlight(coupons :[Coupon?]) -> Coupon?{
+        for c in coupons{
+            if (c?.isHighlight())!{
+                return c
+            }
+        }
+        return nil
+    }
+    
+    static func getNormalCoupon(coupons :[Coupon?]) -> [Coupon?]{
+        var normalCoupons :[Coupon?] = []
+        for c in coupons{
+            if (c?.isHighlight())!{
+                normalCoupons.append(c)
+            }
+        }
+        return normalCoupons
+    }
 }
