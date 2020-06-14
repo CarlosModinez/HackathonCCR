@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8lc-cA-ynh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="S3x-ZX-dSf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="YJb-A7-2Pj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="jgJ-1Z-spM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZoJ-AB-8A1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="843.75"/>
+        </scene>
+        <!--Cupons-->
+        <scene sceneID="x3k-el-Nca">
+            <objects>
+                <viewController title="Cupons" id="qOQ-wL-9M2" customClass="ViewController" customModule="AppHackathon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Ga-IT-k3d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-X0-4KS">
+                                <rect key="frame" x="113.5" y="440" width="187" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="DWD-X0-4KS" firstAttribute="height" secondItem="7Ga-IT-k3d" secondAttribute="height" multiplier="0.0234375" id="WYJ-9v-Mh6"/>
+                            <constraint firstItem="DWD-X0-4KS" firstAttribute="width" secondItem="7Ga-IT-k3d" secondAttribute="width" multiplier="0.451691" id="Ykv-ED-Smb"/>
+                            <constraint firstItem="DWD-X0-4KS" firstAttribute="centerY" secondItem="d1l-Dc-8IE" secondAttribute="centerY" id="ijg-1k-2w7"/>
+                            <constraint firstItem="DWD-X0-4KS" firstAttribute="centerX" secondItem="d1l-Dc-8IE" secondAttribute="centerX" id="m0I-DY-BUq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d1l-Dc-8IE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HPh-jy-Gho"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wpa-jP-gWK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="843.75"/>
+        </scene>
+        <!--Cupons-->
+        <scene sceneID="Hhy-iU-9vh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8lc-cA-ynh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="2" title="Cupons" image="cart" catalog="system" id="48T-Wt-bt3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Img-RU-cI1">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qOQ-wL-9M2" kind="relationship" relationship="rootViewController" id="AnP-JF-bLn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KTy-SJ-nX1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="843.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+    </resources>
+</document>
