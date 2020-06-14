@@ -12,6 +12,19 @@ class Trucker{
     let id :String
     let name :String
     let wallet :Wallet
+    let researches :[Search?]
     
-    init
+    init(id :String, name:String, wallet :Wallet){
+        self.id = id
+        self.name = name
+        self.wallet = wallet
+        self.researches = []
+    }
+    
+    /*
+     add search
+     get search
+     
+     
+     */
 }
