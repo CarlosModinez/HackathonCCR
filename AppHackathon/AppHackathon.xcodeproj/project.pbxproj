@@ -10,6 +10,7 @@
 		313CCACD1B2C55B4E3A18FE3 /* Pods_AppHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1D58C31F6D9026A8521D1D /* Pods_AppHackathon.framework */; };
 		394920DB2495B85E008D6DAD /* Locais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920D92495B85E008D6DAD /* Locais.storyboard */; };
 		394920DF2495BD3C008D6DAD /* Cupons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920DD2495BD3C008D6DAD /* Cupons.storyboard */; };
+		394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E02495C662008D6DAD /* LocaisViewController.swift */; };
 		399144D52495A6FC006AB959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399144D42495A6FC006AB959 /* AppDelegate.swift */; };
 		399144D72495A6FC006AB959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399144D62495A6FC006AB959 /* SceneDelegate.swift */; };
 		399144D92495A6FC006AB959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399144D82495A6FC006AB959 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		394920DA2495B85E008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Locais.storyboard; sourceTree = "<group>"; };
 		394920DE2495BD3C008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cupons.storyboard; sourceTree = "<group>"; };
+		394920E02495C662008D6DAD /* LocaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaisViewController.swift; sourceTree = "<group>"; };
 		399144D12495A6FC006AB959 /* AppHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399144D42495A6FC006AB959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		399144D62495A6FC006AB959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				399144D82495A6FC006AB959 /* ViewController.swift */,
+				394920E02495C662008D6DAD /* LocaisViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				399144D92495A6FC006AB959 /* ViewController.swift in Sources */,
 				399144D52495A6FC006AB959 /* AppDelegate.swift in Sources */,
 				399144D72495A6FC006AB959 /* SceneDelegate.swift in Sources */,
+				394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
