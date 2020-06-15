@@ -32,7 +32,7 @@ class Model{
                               longitude: -45.423933,
                               latitude: -22.961573),
               category: "Restaurante",
-              coverPhoto: "posto_gasolina_1",
+              coverPhoto: "restaurante_4",
               photos: ["posto_gasolina_1", "posto_gasolina_2", "posto_gasolina_3"],
               comments: [
                 Comment(title: "Comida muito saborosa!",
