@@ -31,6 +31,10 @@
 		39B81C472495AC5700C1A254 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39B81C462495AC5700C1A254 /* GoogleService-Info.plist */; };
 		D17792FB2496B76600068C33 /* CuponsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17792FA2496B76600068C33 /* CuponsTableViewController.swift */; };
 		D17792FE2496B87800068C33 /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17792FD2496B87800068C33 /* FeaturedTableViewCell.swift */; };
+		D17793002496D57700068C33 /* RestaurantInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17792FF2496D57700068C33 /* RestaurantInfoTableViewCell.swift */; };
+		D17793022496D59600068C33 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17793012496D59600068C33 /* SearchTableViewCell.swift */; };
+		D17793042496D5AF00068C33 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17793032496D5AF00068C33 /* TitleTableViewCell.swift */; };
+		D17793062496D5D600068C33 /* OthersCuponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17793052496D5D600068C33 /* OthersCuponsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +64,10 @@
 		616F0863302B0D9B4FACCC49 /* Pods-AppHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHackathon.debug.xcconfig"; path = "Target Support Files/Pods-AppHackathon/Pods-AppHackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		D17792FA2496B76600068C33 /* CuponsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuponsTableViewController.swift; sourceTree = "<group>"; };
 		D17792FD2496B87800068C33 /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		D17792FF2496D57700068C33 /* RestaurantInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoTableViewCell.swift; sourceTree = "<group>"; };
+		D17793012496D59600068C33 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		D17793032496D5AF00068C33 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		D17793052496D5D600068C33 /* OthersCuponsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersCuponsTableViewCell.swift; sourceTree = "<group>"; };
 		DF1D58C31F6D9026A8521D1D /* Pods_AppHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71DC49DC56DB813475204C7 /* Pods-AppHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHackathon.release.xcconfig"; path = "Target Support Files/Pods-AppHackathon/Pods-AppHackathon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +178,10 @@
 			isa = PBXGroup;
 			children = (
 				D17792FD2496B87800068C33 /* FeaturedTableViewCell.swift */,
+				D17792FF2496D57700068C33 /* RestaurantInfoTableViewCell.swift */,
+				D17793012496D59600068C33 /* SearchTableViewCell.swift */,
+				D17793032496D5AF00068C33 /* TitleTableViewCell.swift */,
+				D17793052496D5D600068C33 /* OthersCuponsTableViewCell.swift */,
 			);
 			path = CuponsViewscCells;
 			sourceTree = "<group>";
@@ -292,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17793042496D5AF00068C33 /* TitleTableViewCell.swift in Sources */,
 				394920E9249672D8008D6DAD /* Trucker.swift in Sources */,
 				D17792FE2496B87800068C33 /* FeaturedTableViewCell.swift in Sources */,
 				394920E32496728A008D6DAD /* Model.swift in Sources */,
@@ -302,12 +315,15 @@
 				3939D6F324969B8200652B0D /* HighwaySearch.swift in Sources */,
 				399144D72495A6FC006AB959 /* SceneDelegate.swift in Sources */,
 				394920EF2496744F008D6DAD /* Wallet.swift in Sources */,
+				D17793022496D59600068C33 /* SearchTableViewCell.swift in Sources */,
+				D17793062496D5D600068C33 /* OthersCuponsTableViewCell.swift in Sources */,
 				D17792FB2496B76600068C33 /* CuponsTableViewController.swift in Sources */,
 				394920F124967555008D6DAD /* Search.swift in Sources */,
 				391474382496A95000164900 /* Comment.swift in Sources */,
 				3939D6ED2496899400652B0D /* Address.swift in Sources */,
 				3939D6F924969F2A00652B0D /* SearchForm.swift in Sources */,
 				394920EB24967311008D6DAD /* Place.swift in Sources */,
+				D17793002496D57700068C33 /* RestaurantInfoTableViewCell.swift in Sources */,
 				394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

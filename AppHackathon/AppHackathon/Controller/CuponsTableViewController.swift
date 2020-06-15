@@ -12,35 +12,61 @@ class CuponsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return Model.instance.coupons.count + 3
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell1 = tableView.dequeueReusableCell(withIdentifier: "FeaturedTableViewCell", for: indexPath) as! FeaturedTableViewCell
+        let cell2 = tableView.dequeueReusableCell(withIdentifier: "RestaurantInfoTableViewCell", for: indexPath) as! RestaurantInfoTableViewCell
+        let cell3 = tableView.dequeueReusableCell(withIdentifier: "SearchTableViewCell", for: indexPath) as! SearchTableViewCell
+        let cell4 = tableView.dequeueReusableCell(withIdentifier: "TitleTableViewCell", for: indexPath) as! TitleTableViewCell
+        let cell5 = tableView.dequeueReusableCell(withIdentifier: "OthersCuponsTableViewCell", for: indexPath) as! OthersCuponsTableViewCell
 
-        // Configure the cell...
-
-        return cell
+        if indexPath.row == 0 {
+            cell1.discount.text = String(Model.instance.coupons[0].getDiscount()*100) + "%"
+            cell1.lblNewPrice.text = String(Model.instance.coupons[0].getNewPrice())
+            cell1.lblOldPrice.text = String(Model.instance.coupons[0].getOldPrice())
+            cell1.imgOffer.image = UIImage(named: Model.instance.coupons[0].getPhoto())
+            cell1.points.text = String(Model.instance.coupons[0].getPoints())
+            return cell1
+            
+        } else if indexPath.row == 1 {
+            cell2.imgRestaurant.image = UIImage(named: "logo_restaurante")
+            cell2.lblRestaurantAddress.text = Model.instance.coupons[0].getPlace().getAddress().street
+            cell2.lblRestaurantName.text = Model.instance.coupons[0].getPlace().getName()
+            cell2.lblRestaurantComplement.text = Model.instance.coupons[0].getPlace().getAddress().complement
+            
+            return cell2
+        } else if indexPath.row == 2 {
+            return cell3
+        } else if indexPath.row == 3 {
+            cell4.lblOthersOffers.text = "Outras ofertas"
+            return cell4
+        } else {
+            cell5.imgRestaurantOffer.image = UIImage(named: Model.instance.coupons[indexPath.row - 3].getPhoto())
+            cell5.lblNewPrice.text = String(Model.instance.coupons[indexPath.row - 3].getNewPrice())
+            cell5.lblOldPrice.text = String(Model.instance.coupons[indexPath.row - 3].getOldPrice())
+            cell5.lblOfferDescription.text = String(Model.instance.coupons[indexPath.row - 3].getTitle())
+            cell5.lblPoints.text = String(Model.instance.coupons[indexPath.row - 3].getPoints())
+            cell5.lblDescount.text = String(Model.instance.coupons[indexPath.row - 3].getDiscount()*100) + "%"
+            self.tableView.rowHeight = 251
+        }
+        return cell5
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

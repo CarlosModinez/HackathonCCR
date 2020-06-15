@@ -61,6 +61,10 @@ class Coupon{
         return self.nameImg
     }
     
+    func getDiscount() -> Float {
+        return self.discount
+    }
+    
     func isHighlight() -> Bool{
         return self.highlight
     }
