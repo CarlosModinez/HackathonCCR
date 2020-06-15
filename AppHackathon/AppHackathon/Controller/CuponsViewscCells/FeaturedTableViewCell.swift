@@ -9,16 +9,9 @@
 import UIKit
 
 class FeaturedTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    @IBOutlet weak var imgOffer: UIImageView!
+    @IBOutlet weak var lblNewPrice: UILabel!
+    @IBOutlet weak var lblOldPrice: UILabel!
+    @IBOutlet weak var discount: UILabel!
+    @IBOutlet weak var points: UILabel!
 }
