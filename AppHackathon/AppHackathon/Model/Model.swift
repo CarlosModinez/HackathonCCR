@@ -32,8 +32,8 @@ class Model{
                               longitude: -45.423933,
                               latitude: -22.961573),
               category: "Restaurante",
-              coverPhoto: "coverSaborInterior.png",
-              photos: ["restSabInt-0.png", "restSabInt-1.png", "restSabInt-3.png", "restSabInt-4.png"],
+              coverPhoto: "posto_gasolina_1",
+              photos: ["posto_gasolina_1", "posto_gasolina_2", "posto_gasolina_3"],
               comments: [
                 Comment(title: "Comida muito saborosa!",
                         subTitle: "A salada de frutas com melancia é imperdível", rating: 5)
@@ -49,8 +49,8 @@ class Model{
                             longitude: -45.420475,
                             latitude: -22.960402),
             category: "Posto",
-            coverPhoto: "coverDoisIrmaos.png",
-            photos: ["postoDoisIrmaos-0.png", "postoDoisIrmaos-1.png", "postoDoisIrmaos-3.png", "postoDoisIrmaos-4.png"],
+            coverPhoto: "posto_gasolina_1",
+            photos: ["posto_gasolina_1", "posto_gasolina_2", "posto_gasolina_3"],
             comments: [
                 Comment(title: "Comida muito saborosa!",
                         subTitle: "A salada de frutas com melancia é imperdível", rating: 5)
