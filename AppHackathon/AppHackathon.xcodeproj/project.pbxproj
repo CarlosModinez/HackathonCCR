@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		313CCACD1B2C55B4E3A18FE3 /* Pods_AppHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1D58C31F6D9026A8521D1D /* Pods_AppHackathon.framework */; };
+		391474382496A95000164900 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391474372496A95000164900 /* Comment.swift */; };
+		392ADE482496FC74004E3E4B /* NearbyPlacesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ADE472496FC74004E3E4B /* NearbyPlacesCollectionViewCell.swift */; };
+		392ADE4C249707FE004E3E4B /* LocalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ADE4B249707FE004E3E4B /* LocalTableViewController.swift */; };
+		3939D6ED2496899400652B0D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6EC2496899400652B0D /* Address.swift */; };
+		3939D6F324969B8200652B0D /* HighwaySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F224969B8200652B0D /* HighwaySearch.swift */; };
+		3939D6F524969C1900652B0D /* SearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F424969C1900652B0D /* SearchItem.swift */; };
+		3939D6F924969F2A00652B0D /* SearchForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939D6F824969F2A00652B0D /* SearchForm.swift */; };
 		394920DB2495B85E008D6DAD /* Locais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920D92495B85E008D6DAD /* Locais.storyboard */; };
 		394920DF2495BD3C008D6DAD /* Cupons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394920DD2495BD3C008D6DAD /* Cupons.storyboard */; };
 		394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394920E02495C662008D6DAD /* LocaisViewController.swift */; };
@@ -24,9 +31,22 @@
 		399144DE2495A6FD006AB959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399144DD2495A6FD006AB959 /* Assets.xcassets */; };
 		399144E12495A6FD006AB959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399144DF2495A6FD006AB959 /* LaunchScreen.storyboard */; };
 		39B81C472495AC5700C1A254 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39B81C462495AC5700C1A254 /* GoogleService-Info.plist */; };
+		D17792FB2496B76600068C33 /* CuponsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17792FA2496B76600068C33 /* CuponsTableViewController.swift */; };
+		D17792FE2496B87800068C33 /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17792FD2496B87800068C33 /* FeaturedTableViewCell.swift */; };
+		D17793002496D57700068C33 /* RestaurantInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17792FF2496D57700068C33 /* RestaurantInfoTableViewCell.swift */; };
+		D17793022496D59600068C33 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17793012496D59600068C33 /* SearchTableViewCell.swift */; };
+		D17793042496D5AF00068C33 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17793032496D5AF00068C33 /* TitleTableViewCell.swift */; };
+		D17793062496D5D600068C33 /* OthersCuponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17793052496D5D600068C33 /* OthersCuponsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391474372496A95000164900 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		392ADE472496FC74004E3E4B /* NearbyPlacesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlacesCollectionViewCell.swift; sourceTree = "<group>"; };
+		392ADE4B249707FE004E3E4B /* LocalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTableViewController.swift; sourceTree = "<group>"; };
+		3939D6EC2496899400652B0D /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		3939D6F224969B8200652B0D /* HighwaySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighwaySearch.swift; sourceTree = "<group>"; };
+		3939D6F424969C1900652B0D /* SearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItem.swift; sourceTree = "<group>"; };
+		3939D6F824969F2A00652B0D /* SearchForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForm.swift; sourceTree = "<group>"; };
 		394920DA2495B85E008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Locais.storyboard; sourceTree = "<group>"; };
 		394920DE2495BD3C008D6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cupons.storyboard; sourceTree = "<group>"; };
 		394920E02495C662008D6DAD /* LocaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaisViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +66,12 @@
 		399144E22495A6FD006AB959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39B81C462495AC5700C1A254 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		616F0863302B0D9B4FACCC49 /* Pods-AppHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHackathon.debug.xcconfig"; path = "Target Support Files/Pods-AppHackathon/Pods-AppHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		D17792FA2496B76600068C33 /* CuponsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuponsTableViewController.swift; sourceTree = "<group>"; };
+		D17792FD2496B87800068C33 /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		D17792FF2496D57700068C33 /* RestaurantInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoTableViewCell.swift; sourceTree = "<group>"; };
+		D17793012496D59600068C33 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		D17793032496D5AF00068C33 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		D17793052496D5D600068C33 /* OthersCuponsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersCuponsTableViewCell.swift; sourceTree = "<group>"; };
 		DF1D58C31F6D9026A8521D1D /* Pods_AppHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71DC49DC56DB813475204C7 /* Pods-AppHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHackathon.release.xcconfig"; path = "Target Support Files/Pods-AppHackathon/Pods-AppHackathon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +134,9 @@
 			children = (
 				399144D82495A6FC006AB959 /* ViewController.swift */,
 				394920E02495C662008D6DAD /* LocaisViewController.swift */,
+				392ADE4B249707FE004E3E4B /* LocalTableViewController.swift */,
+				D17792FA2496B76600068C33 /* CuponsTableViewController.swift */,
+				D17792FC2496B7EB00068C33 /* CuponsViewscCells */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -120,6 +149,7 @@
 				394920DD2495BD3C008D6DAD /* Cupons.storyboard */,
 				399144DF2495A6FD006AB959 /* LaunchScreen.storyboard */,
 				399144DA2495A6FC006AB959 /* Main.storyboard */,
+				392ADE472496FC74004E3E4B /* NearbyPlacesCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,7 +162,12 @@
 				394920EA24967311008D6DAD /* Place.swift */,
 				394920EC24967322008D6DAD /* Coupon.swift */,
 				394920EE2496744F008D6DAD /* Wallet.swift */,
+				3939D6F224969B8200652B0D /* HighwaySearch.swift */,
+				3939D6EC2496899400652B0D /* Address.swift */,
 				394920F024967555008D6DAD /* Search.swift */,
+				3939D6F424969C1900652B0D /* SearchItem.swift */,
+				3939D6F824969F2A00652B0D /* SearchForm.swift */,
+				391474372496A95000164900 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +178,18 @@
 				DF1D58C31F6D9026A8521D1D /* Pods_AppHackathon.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D17792FC2496B7EB00068C33 /* CuponsViewscCells */ = {
+			isa = PBXGroup;
+			children = (
+				D17792FD2496B87800068C33 /* FeaturedTableViewCell.swift */,
+				D17792FF2496D57700068C33 /* RestaurantInfoTableViewCell.swift */,
+				D17793012496D59600068C33 /* SearchTableViewCell.swift */,
+				D17793032496D5AF00068C33 /* TitleTableViewCell.swift */,
+				D17793052496D5D600068C33 /* OthersCuponsTableViewCell.swift */,
+			);
+			path = CuponsViewscCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,16 +310,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17793042496D5AF00068C33 /* TitleTableViewCell.swift in Sources */,
 				394920E9249672D8008D6DAD /* Trucker.swift in Sources */,
+				D17792FE2496B87800068C33 /* FeaturedTableViewCell.swift in Sources */,
 				394920E32496728A008D6DAD /* Model.swift in Sources */,
+				3939D6F524969C1900652B0D /* SearchItem.swift in Sources */,
 				399144D92495A6FC006AB959 /* ViewController.swift in Sources */,
 				394920ED24967322008D6DAD /* Coupon.swift in Sources */,
 				399144D52495A6FC006AB959 /* AppDelegate.swift in Sources */,
+				392ADE482496FC74004E3E4B /* NearbyPlacesCollectionViewCell.swift in Sources */,
+				3939D6F324969B8200652B0D /* HighwaySearch.swift in Sources */,
 				399144D72495A6FC006AB959 /* SceneDelegate.swift in Sources */,
 				394920EF2496744F008D6DAD /* Wallet.swift in Sources */,
+				D17793022496D59600068C33 /* SearchTableViewCell.swift in Sources */,
+				D17793062496D5D600068C33 /* OthersCuponsTableViewCell.swift in Sources */,
+				D17792FB2496B76600068C33 /* CuponsTableViewController.swift in Sources */,
 				394920F124967555008D6DAD /* Search.swift in Sources */,
+				391474382496A95000164900 /* Comment.swift in Sources */,
+				3939D6ED2496899400652B0D /* Address.swift in Sources */,
+				3939D6F924969F2A00652B0D /* SearchForm.swift in Sources */,
 				394920EB24967311008D6DAD /* Place.swift in Sources */,
+				D17793002496D57700068C33 /* RestaurantInfoTableViewCell.swift in Sources */,
 				394920E12495C662008D6DAD /* LocaisViewController.swift in Sources */,
+				392ADE4C249707FE004E3E4B /* LocalTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUL3CPS6RX;
+				DEVELOPMENT_TEAM = CM34PRAQJX;
 				INFOPLIST_FILE = AppHackathon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,7 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUL3CPS6RX;
+				DEVELOPMENT_TEAM = CM34PRAQJX;
 				INFOPLIST_FILE = AppHackathon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
