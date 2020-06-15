@@ -56,7 +56,7 @@ class Place{
     }
     
     func getId() -> String{
-        return self.getId()
+        return self.id
     }
     
     func getPhotos() -> [String?]{
@@ -69,5 +69,9 @@ class Place{
     
     func getCategory() -> String{
         return self.category
+    }
+    
+    func getCoverPhoto() -> String{
+        return self.coverPhoto
     }
 }
